@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- COMENTARIOS VIEWS match_parent-->
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contador de Pulsos"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:layout_marginTop="100sp"
+        android:textColor="#6A38C5"
+ />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="100sp"
+        android:textColor="#9E0505"
+        android:gravity="center"
+        android:layout_below="@id/txtTitulo"
+        android:layout_marginTop="100sp"
+        android:textStyle="bold"
+        android:id="@+id/Contador"
+    />
+
+    <Button
+        android:id="@+id/btmas"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:layout_below="@id/Contador"
+        android:layout_marginTop="50sp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#4CAF50"
+        android:onClick="onClick"
+
+    />
+    <Button
+        android:id="@+id/btmenos"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:layout_below="@id/btmas"
+        android:layout_marginTop="50sp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#D80909"
+        android:onClick="onClick"
+
+        />
+
+
+
+</RelativeLayout>

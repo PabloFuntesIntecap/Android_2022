@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="COMPRA DE PRODUCTOS"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:layout_marginTop="15sp"
+        android:textStyle="bold"
+        android:textColor="#F60808"
+/>
+
+    <EditText
+    android:id="@+id/edtProducto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Nombre del Producto"
+    android:textSize="30sp"
+    android:textAlignment="center"
+    android:layout_marginTop="50sp"
+    android:textColor="#9C27B0"
+    android:textColorHint="@color/purple_200"
+    android:inputType="text"
+    />
+
+    <EditText
+        android:id="@+id/edtValor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Valor sin IVA"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:layout_marginTop="125sp"
+        android:textColor="#9C27B0"
+        android:textColorHint="@color/purple_200"
+        android:inputType="number"
+        />
+    <EditText
+        android:id="@+id/edtCantidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cantidad Compra"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:layout_marginTop="200sp"
+        android:textColor="#9C27B0"
+        android:textColorHint="@color/purple_200"
+        android:inputType="number"
+        />
+
+ <Button
+     android:id="@+id/btnCalcular"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="Calcular"
+     android:textSize="20sp"
+     android:layout_marginTop="300dp"
+     android:layout_marginLeft="10sp"
+     android:layout_marginRight="10sp"
+     android:onClick="onClick"
+
+     />
+
+    <TextView
+        android:id="@+id/txtResultado1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Su total Es:"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:layout_marginTop="400sp"
+        android:textStyle="bold"
+        android:textColor="#F60808"
+        />
+
+    <TextView
+        android:id="@+id/txtResultado2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="..."
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:layout_marginTop="450sp"
+        android:textStyle="bold"
+        android:textColor="#009688"
+        />
+
+</RelativeLayout>

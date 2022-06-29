@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OPERACIONES MATEMATICAS"
+        android:textSize="25sp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10sp"
+        android:textAlignment="center"
+        android:textColor="#FF5722"
+        android:textStyle="bold"
+
+    />
+
+<EditText
+    android:id="@+id/edtnum1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Ingrese el primer Número"
+    android:layout_alignParentTop="true"
+    android:layout_marginTop="50sp"
+    android:textSize="20sp"
+    android:layout_marginLeft="10sp"
+    android:inputType="number"
+
+    />
+    <EditText
+        android:id="@+id/edtnum2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese el segundo Número"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="100sp"
+        android:textSize="20sp"
+        android:layout_marginLeft="10sp"
+        android:inputType="number"
+
+        />
+
+   <Button
+       android:id="@+id/brnMas"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@id/edtnum2"
+       android:text="Suma"
+       android:textSize="30sp"
+       android:onClick="onClick"
+       android:layout_alignParentLeft="true"
+       android:layout_margin="30sp"
+
+   />
+    <Button
+        android:id="@+id/brnMenos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtnum2"
+        android:text="Resta"
+        android:textSize="30sp"
+        android:onClick="onClick"
+        android:layout_alignParentRight="true"
+        android:layout_margin="30sp"
+
+        />
+    <Button
+        android:id="@+id/brnMulti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/brnMas"
+        android:text="* Multi"
+        android:textSize="30sp"
+        android:onClick="onClick"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="30sp"
+
+        />
+    <Button
+        android:id="@+id/brnDivi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/brnMenos"
+        android:text="/ Divi"
+        android:textSize="30sp"
+        android:onClick="onClick"
+        android:layout_alignParentRight="true"
+        android:layout_margin="30sp"
+
+        />
+    <Button
+        android:id="@+id/brnMayor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/brnMulti"
+        android:text="# Mayor"
+        android:textSize="25sp"
+        android:onClick="onClick"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="30sp"
+
+        />
+    <Button
+        android:id="@+id/brnBorrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/brnDivi"
+        android:text="Borrar"
+        android:textSize="25sp"
+        android:onClick="onClick"
+        android:layout_alignParentRight="true"
+        android:layout_margin="30sp"
+
+        />
+
+    <TextView
+        android:id="@+id/txtResultado1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="..."
+        android:textSize="25sp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="500sp"
+        android:textAlignment="center"
+        android:textColor="#E60923"
+        android:textStyle="bold"
+
+        />
+    <TextView
+        android:id="@+id/txtResultado2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="..."
+        android:textSize="25sp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="550sp"
+        android:textAlignment="center"
+        android:textColor="#E60923"
+        android:textStyle="bold"
+
+        />
+</RelativeLayout>
