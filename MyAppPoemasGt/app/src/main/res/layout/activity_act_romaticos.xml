@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Act_romaticos"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:id="@+id/txt_titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ROMANTICOS"
+        android:textSize="25sp"
+        android:layout_margin="10sp"
+        android:textColor="#ED0D28"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="5sp">
+
+/*INICIO POEMA 2 */
+        <TextView
+            android:id="@+id/txt_rpo2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Titulo: Para Recobrar"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:id="@+id/txt_auto2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Autor: Francisco Luis Bernárdez"
+            android:textSize="20sp"
+                android:textColor="@color/black"
+                />
+        <ImageView
+            android:id="@+id/img_r02"
+            android:layout_width="150sp"
+            android:layout_height="120sp"
+            android:src="@drawable/ic_r02"
+            android:layout_gravity="center"
+            android:layout_margin="10sp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/r02"
+            android:textAlignment="center"
+            android:textIsSelectable="true"
+            />
+
+/*INICIO POEMA 1 */
+            <TextView
+                android:id="@+id/txt_rpo1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Titulo: Soneto Del Amor Victorioso"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                />
+            <TextView
+                android:id="@+id/txt_auto1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Autor: Francisco Luis Bernárdez"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                />
+            <ImageView
+                android:id="@+id/img_r01"
+                android:layout_width="150sp"
+                android:layout_height="120sp"
+                android:src="@drawable/ic_r01"
+                android:layout_gravity="center"
+                android:layout_margin="10sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/r01"
+                android:textAlignment="center"
+                android:textIsSelectable="true"
+                />
+/*INICIO POEMA 3 */
+            <TextView
+                android:id="@+id/txt_rpo3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="A Veces"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                />
+            <TextView
+                android:id="@+id/txt_auto3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Autor: Nicolás Guillén"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                />
+            <ImageView
+                android:id="@+id/img_r03"
+                android:layout_width="150sp"
+                android:layout_height="120sp"
+                android:src="@drawable/ic_r03"
+                android:layout_gravity="center"
+                android:layout_margin="10sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/r03"
+                android:textAlignment="center"
+                android:textIsSelectable="true"
+                />
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+</LinearLayout>

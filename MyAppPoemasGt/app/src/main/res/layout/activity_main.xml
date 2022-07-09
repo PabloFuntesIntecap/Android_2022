@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txt_titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="POEMAS GUATEMALTECOS"
+        android:textSize="25sp"
+        android:layout_margin="10sp"
+        android:textAlignment="center"
+        android:textColor="@color/purple_700"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/img_titulo"
+        android:layout_width="250sp"
+        android:layout_height="250sp"
+        android:src="@drawable/ic_guateinicial"
+        android:layout_below="@+id/txt_titulo"
+        android:layout_centerInParent="true"
+
+        />
+
+    <Button
+        android:id="@+id/btn_romaticos"
+        android:layout_width="300sp"
+        android:layout_height="60sp"
+        android:text="ROMANTICOS"
+        android:layout_below="@id/img_titulo"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20sp"
+        android:textColor="@color/white"
+        android:backgroundTint="#F30A1D"
+        android:textStyle="bold"
+        android:onClick="onClick"
+        />
+    <Button
+        android:id="@+id/btn_superacion"
+        android:layout_width="300sp"
+        android:layout_height="60sp"
+        android:text="SUPERACION"
+        android:layout_below="@id/btn_romaticos"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20sp"
+        android:textColor="@color/white"
+        android:backgroundTint="#18E320"
+        android:textStyle="bold"
+        android:onClick="onClick"
+        />
+    <Button
+        android:id="@+id/btn_nacion"
+        android:layout_width="300sp"
+        android:layout_height="60sp"
+        android:text="PATRIA / NACION"
+        android:layout_below="@id/btn_superacion"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:backgroundTint="#425ADD"
+        android:onClick="onClick"
+        />
+
+
+
+</RelativeLayout>
