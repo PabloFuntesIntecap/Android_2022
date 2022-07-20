@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/txt_tiulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IDENTIFICA AÑO BISIESTO O NO"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        android:textColor="@color/teal_200"
+        android:layout_margin="10sp"
+    />
+
+    <ImageView
+        android:id="@+id/img_titulo"
+        android:layout_width="200sp"
+        android:layout_height="200sp"
+        android:src="@drawable/ic_calertotal"
+        android:layout_below="@+id/txt_tiulo"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10sp"
+        />
+
+    <EditText
+        android:id="@+id/edt_year"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:hint="INGRESE UN AÑO ENTRE 0 Y 2999"
+        android:textAlignment="center"
+        android:layout_margin="10sp"
+        android:textColor="@color/purple_200"
+        android:textSize="20sp"
+        android:layout_below="@+id/img_titulo"
+        android:inputType="number"
+        />
+
+    <Button
+        android:id="@+id/btn_validar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="CALCULAR"
+        android:layout_below="@+id/edt_year"
+        android:layout_margin="30sp"
+        />
+
+</RelativeLayout>
