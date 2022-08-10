@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainProductoComprado"
+    android:orientation="vertical">
+
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/img_comprado"
+        android:layout_width="400dp"
+        android:layout_height="500dp"
+        android:src="@drawable/ic_cat01_pic01"
+        android:layout_margin="5dp"
+        />
+    <TextView
+        android:id="@+id/titulo_comprado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Titulo"
+        android:layout_margin="10dp"
+        android:textSize="25dp"
+        android:textColor="@color/teal_700"
+        />
+    <TextView
+        android:id="@+id/material_comprado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Material"
+        android:layout_margin="10dp"
+        android:textSize="25dp"
+        android:textColor="@color/teal_700"
+        />
+
+
+    <TextView
+        android:id="@+id/precio_comprado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Precio"
+        android:layout_margin="10dp"
+        android:textSize="25dp"
+        android:textColor="@color/teal_700"
+        />
+
+    <EditText
+        android:id="@+id/edtNombre_comprado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Escriba su nombre"
+        android:textColor="@color/purple_700"
+        android:textSize="25dp"
+        android:layout_margin="10dp"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:id="@+id/edtApellido_comprado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Escriba su Apellido"
+        android:textColor="@color/purple_700"
+        android:textSize="25dp"
+        android:layout_margin="10dp"
+        android:inputType="text"
+        />
+    <EditText
+        android:id="@+id/edtNit_comprado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Escriba su NIT"
+        android:textColor="@color/purple_700"
+        android:textSize="25dp"
+        android:layout_margin="10dp"
+        android:inputType="number"
+        />
+    <Button
+        android:id="@+id/btn_comprar"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Comprar"
+        android:textSize="25dp"
+        android:layout_margin="5dp"
+        />
+    <Button
+        android:id="@+id/btn_cancelar"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Cancelar"
+        android:textSize="10dp"
+        android:layout_margin="5dp"
+        android:backgroundTint="#F34848"
+
+        />
+
+</LinearLayout>
+</ScrollView>
+
+</LinearLayout>

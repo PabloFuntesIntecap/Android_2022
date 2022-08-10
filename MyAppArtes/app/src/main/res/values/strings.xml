@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MyAppArtes</string>
+
+    <string name="descripcion_cat1">
+MORDERNISMO: Dos ideas son fundamentales para entender la cultura moderna que estaba emergiendo: la conciencia de que “el futuro ya ha comenzado”, que se relaciona con el concepto de progreso; y la convicción de que para tener futuro no sirven las pautas o doctrinas de etapas anteriores, sino que es necesario crear sus propias normas. Existe la ruptura con el pasado y la apuesta con el futuro desde el mismo presente.
+    </string>
+
+    <string name="descripcion_cat2">
+ARMORY SHOW: denominación en inglés de las exhibiciones artísticas que han tenido lugar en la armería del 69º regimiento de la Guardia Nacional en Nueva York, es el término utilizado habitualmente para referirse a la International Exhibition of Modern Art (Exposición Internacional de Arte Moderno) que tuvo lugar entre el 17 de febrero y el 15 de marzo de 1913. Esta exposición se convirtió en un punto de inflexión para el arte de Estados Unidos en dirección al denominado "arte moderno", frente al hasta entonces dominante academicismo. Provocó que los artistas estadounidenses se hicieran más independientes y crearan su propio lenguaje artístico.
+    </string>
+
+    <string name="descripcion_cat3">
+    PINTURA MODERNA: Es un término de gran ambigüedad, que es utilizado por la bibliografía para referirse a muy distintos conceptos dentro de la historiografía del arte.Su utilización dentro de cada una de las fuentes coincide o no con el sentido que se da a los términos "arte moderno", "escultura moderna" y "arquitectura moderna", igualmente ambiguos; así como al concepto de Hermandad.
+    </string>
+
+</resources>

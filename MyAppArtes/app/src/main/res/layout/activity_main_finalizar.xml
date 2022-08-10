@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainFinalizar"
+    android:orientation="vertical"
+    >
+
+<TextView
+    android:id="@+id/txt_Titulofinal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Muchas gracias por su compra: "
+    android:textSize="20dp"
+    android:textColor="@color/purple_500"
+    android:gravity="center"
+    android:layout_margin="10dp"
+    />
+
+<ImageView
+    android:id="@+id/imgfinal_comprado"
+    android:layout_width="400dp"
+    android:layout_height="500dp"
+    android:src="@drawable/ic_cat01_pic01"
+    android:layout_margin="10dp"
+    android:layout_gravity="center"
+    />
+
+    <TextView
+        android:id="@+id/txt_nitfinal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NIT: "
+        android:textSize="30dp"
+        android:textColor="@color/purple_500"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        />
+    <TextView
+        android:id="@+id/txt_totalpago"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total con impuesto: "
+        android:textSize="20dp"
+        android:textColor="@color/purple_500"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        />
+
+    <Button
+        android:id="@+id/btn_finalizaryregresar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Finalizar y regresar"
+        android:textSize="15dp"
+        android:backgroundTint="#4CAF50"
+        />
+</LinearLayout>
